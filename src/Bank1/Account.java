@@ -10,18 +10,20 @@ public Account(String name1)
 {
 	this(0,name1);
 	
-	
-	accno=counter;
 	counter++;
+	accno=counter;
+	
 	
 }
 public Account(int bal,String name1)
 {
-	name=name1;
-	balance=bal;
 	
-	accno=counter;
+	name=name1;
+	
+	balance=bal;
 	counter++;
+	accno=counter;
+	
 	
 }
 
